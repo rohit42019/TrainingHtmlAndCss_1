@@ -1,0 +1,137 @@
+<!-- Assignment 1(Day 1)
+Webpage for showing the details of iPhone 12, iPhone XR, iPhone SE.
+This Webpage is created using the following tags:
+h1-h6, p, ul, li, ol, li, table, div, span, a, img, Form, Form elements.  -->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-value=1.0">
+	<title>Task Day 1</title>
+	<link rel="stylesheet" type="text/css" href="CSS/style1.css">
+</head>
+<!-- head ends -->
+<body>
+	<header>
+		<center><h1>Details About iPhone 12, iPhone XR and iPhone SE</h1>
+			<hr width="60%" color="gray">
+		</center>
+	</header>
+	<div>
+		<br><br>
+		<div>
+			<h2>Models</h2>
+			<ol>
+				<li><a href="#iPhone12">iPhone 12</a></li>
+				<br>
+				<li><a href="#iPhoneXR">iPhone XR</a></li>
+				<br>
+				<li><a href="#iPhoneSE">iPhone SE</a></li>
+			</ol>
+		</div>
+		<br><br>
+	</div>
+	<!-- iphones short description -->
+	<section id="description-container">
+		<div id="iPhone12">
+			<h2>iPhone 12</h2>
+			<img src="Images/iphone12.jpg" alt="iPhone 12 image" height="150px" width="100px">
+			<p>Of the four members of the new iPhone 12 family, the base iPhone 12 might be easy to overlook. It isn't a radically different size, it doesn't have the highest-end camera system, and it is perhaps the most iterative in terms of updates in the new portfolio. This isn't a simple upgrade to the iPhone 11 though; launching at a much higher starting price, it creates a new tier in Apple's lineup. You could see it as a step up from the iPhone 12 mini, but much like there are two sizes of Apple Watch, the differences between these models are more to do with personal preference than capabilities...<a href="https://www.apple.com/in/iphone-12/key-features/" target="_blank">more</a></p>
+		</div>
+		<br><br>
+		<div id="iPhoneXR">
+			<h2>iPhone XR</h2>
+			<img src="Images/iphoneXR.jpg" alt="iPhone XR image" height="150px" width="150px">
+			<p>Apple iPhone XR mobile was launched in September 2018. The phone comes with a 6.10-inch touchscreen display with a resolution of 828x1792 pixels at a pixel density of 326 pixels per inch (ppi) and an aspect ratio of 19.5:9. Apple iPhone XR is powered by a hexa-core Apple A12 Bionic processor. It comes with 3GB of RAM. The Apple iPhone XR runs iOS 12 and is powered by a 2942mAh non-removable battery. The Apple iPhone XR supports wireless charging, as well as proprietary fast charging...<a href="https://www.apple.com/" target="_blank">more</a></p>
+		</div>
+		<br><br>
+		<div id="iPhoneSE">
+			<h2>iPhone SE</h2>
+			<img src="Images/iphoneSE.jpg" alt="iPhone SE image" height="150px" width="120px">
+			<p>Apple iPhone SE mobile was launched in March 2016. The phone comes with a 4.00-inch touchscreen display with a resolution of 640x1136 pixels at a pixel density of 326 pixels per inch (ppi). Apple iPhone SE is powered by an one-core Apple A9 processor. It comes with 2GB of RAM...<a href="https://www.apple.com/in/iphone-se/" target="_blank">more</a></p>
+			
+		</div>
+	</section>
+	<br><br>
+
+	<!-- iphone comparision -->
+	<section id="comparision-container">
+		<center>
+		<h2>Comparision between iphone 12, iphone XR and iphone SE</h2>
+		<table cellpadding="10px" border="1px" style="border-collapse: collapse;" bgcolor="skyblue" width="60%">
+			<thead bgcolor="lightgreen">
+				<tr>
+					<th>Factors</th>
+					<th>iPhone 12</th>
+					<th>iPhone XR</th>
+					<th>iPhone SE</th>
+				</tr>
+			</thead>
+			<tbody>
+				<colgroup>
+					<col bgcolor="yellow">
+				</colgroup>
+				<tr align="center">
+					<th>Price in India</th>
+					<td>Rs. 79900</td>
+					<td>Rs. 76900</td>
+					<td>Rs. 39900</td>
+				</tr>
+				<tr align="center">
+					<th>Capacity</th>
+					<td>64GB - 256GB</td>
+					<td>64GB - 128GB</td>
+					<td>64GB - 128GB</td>
+				</tr>
+				<tr align="center">
+					<th>Camera</th>
+					<td>12 MP + 12 MP</td>
+					<td>12 MP</td>
+					<td>12 MP</td>
+				</tr>
+				<tr align="center">
+					<th>Display</th>
+					<td>6.1 inches (15.49 cm)</td>
+					<td>6.1" (15.49 cm)</td>
+					<td>4.7 inches (11.94 cm)</td>
+				</tr>
+				<tr align="center">
+					<th>Performance</th>
+					<td>Apple A14 Bionic</td>
+					<td>Apple A12 Bionic</td>
+					<td>Apple A13 Bionic</td>
+				</tr>
+			</tbody>
+		</table>
+	</center>
+	</section>
+	<br><br>
+	<!-- form part starts -->
+	<section id="form-container">
+		<center>
+			<h2> Have any Query?</h2>
+			<form action="" method="">
+				<label for="name">Name</label>
+				<input type="text" name="name" required="true">
+				<br><br>
+				<label for="email">Email</label>
+				<input type="email" name="email" required="true">
+				<br><br>
+				<textarea name="query" cols="27" rows="10" placeholder="Enter your Query" required="true"></textarea>
+				<br><br>
+				<button type="submit" name="submit" value="Submit">submit</button>
+			</form>
+		</center>
+	</section>
+
+	<footer>
+		<p align="end">Author: Rohit Sharma Copyright</p>
+		<p align="end">Email : <a href="mailto:rohitsharmaofficial42019@gmail.com">rohitsharmaofficial42019@gmail.com</a></p>
+	</footer>
+	<!-- footer ends -->
+
+	<!-- body ends -->
+</body>
+</html>
